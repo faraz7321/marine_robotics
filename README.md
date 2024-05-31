@@ -1,11 +1,11 @@
 # ROS1_bridge Docker
-An implementation of [ros1_bridge][1] using with upstream ROS on Ubuntu 22.04 as guided [here][2].
+An implementation of [ros1_bridge][1] and docker for accessing BlueROV remotely using with upstream ROS on Ubuntu 22.04 as guided [here][2].
   
 
 ## Getting started
 
 - Clone this repository to your local machine:
-	````git clone https://git.hb.dfki.de/fahmad/noetic-humble-ros1-bridge.git````
+	````git https://github.com/faraz7321/marine_robotics.git````
 - To build the docker image:
 	````make build-bridge````
 - To run the container:
